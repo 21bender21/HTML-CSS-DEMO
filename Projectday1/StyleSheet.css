@@ -1,0 +1,153 @@
+﻿body {
+    background: radial-gradient(black,yellow,black,yellow)
+    
+}
+
+header{
+    text-align:center !important;
+    font-weight:bold !important;
+    font-size:50px!important;
+    text-shadow: 2px 3px white;
+    padding-top:5%;
+    padding-bottom:5%;
+    color:black !important;
+    align-content:center;
+    padding-left:2%;
+    padding-right:2%;
+    background:radial-gradient(yellow,black,yellow,black);
+    margin-top:40px; margin-left:40px; margin-right:40px;margin-bottom:40px
+        
+}
+
+#batlogo{
+    display:inline-block;
+    position:center;
+}
+
+#homeBanner{
+    text-decoration:none;
+    color:black;
+    
+}
+footer{
+    text-shadow: 1px 1px white;
+    margin-top:20%;
+    margin-bottom:5%;
+}
+
+#aboutus{
+    font-size:20px;
+    text-shadow: 1px 1px white;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:2%;
+    margin-right:2%;
+    padding-left:5%;
+    padding-right:5%;
+    border:solid;
+    opacity:.8;
+    padding-top:20px;
+
+}
+h3{
+    color:red !important;
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    color:blue !important;
+    font-style:italic;
+}
+#moneyOne{
+    color:green;
+    font-weight:bold;
+    display:inline-block;
+    font-size:50px !important;
+}
+
+#topSell{
+    text-align:center;
+        font-size:40px;
+        text-shadow: 1px 1px white;
+        display:inline-block;
+}
+
+.prodPix{
+    display:inline-block;
+    border:thick none crimson;
+    height:30%;
+    width:30%;
+    margin-right:5px;
+    position:relative;
+    top: 0px;
+    left: -1026026px;
+}
+
+#prodOne{
+    height:50%;
+    width:50%;
+}
+
+#prodTwo {
+    margin-right:5px;
+    height:90%;   
+    width:90%;
+}
+
+#prodThree{
+              height:60% !important;
+              width:60% !important;
+          }
+
+a.hover:hover{
+    opacity:.5;
+  
+    
+}
+.imgdesc{
+    
+    visibility:hidden;
+    
+}
+.imgdesc:hover{
+    visibility:visible !important;
+    
+  
+}
+.pls:hover .imgdesc{
+    visibility:visible;
+}
+p1{
+    display:inline-block;
+}
+.pls{
+    display:inline;
+
+}
+.p2{
+    text-shadow:1px 1px white;
+}
+form{
+    text-shadow: 2px 1px white;
+    font-size:20px;
+    font-weight:bold;
+}
+h1{
+    text-align:center;
+    text-decoration:none;
+}
+fieldset{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+rang1{
+    float:left;
+    display:inline-block;
+}

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <a id="homeBanner" href="hompage.html" >
+      <div>
+        <header>
+            <img id="batlogo" src="batsym.png" alt="batsymbol" title="HOME"/><br />
+            THE BATMANS  GOODY SWAP CAVE
+        </header>
+    </div>
+    </a> 
+
+    <form method="get" action="ausbender@gmail.com">
+
+        <fieldset>
+            <legend>Your Information</legend>
+            First and Last Name:<input type="text" name="firstLast" /><br />
+            Your Email: <input type="email" name="email" /><br />
+            Desired Sale Start Date: <input type="date" min="2017-01-31" max="2200-12-31" name="ordeDate" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Item</legend>
+            <p>
+                <label>Item Type</label>
+                <select id="typelist">
+                    <option value="weapon">Weapon</option>
+                    <option value="accessory">Accesory</option>
+                    <option value="vehicle">Vehicle</option>
+                    <option value="Costume Component">Costume Component</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            Desired Sale Price<input type="number" max="10.00" min="00.01" /><br /><br /><br />
+            Product Description<textarea name="productdescription" maxlength="255" rows="5" cols="50"wrap="soft"></textarea>
+        </fieldset>
+
+    </form>
+
+    <div>
+        <footer>
+            The BATMAN is not responsible for any damage and or bodily harm that should be sustained through use of purchased or traded products. All sales are final all goods as is. All Batman logowear and names are Copyright and Trademarked DC comics.
+        </footer>
+    </div>
+</body>
+</html>
